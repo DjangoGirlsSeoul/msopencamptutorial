@@ -18,3 +18,4 @@
 
 ## Step 5
 	a. Django Admin - Add your model to admin.py
+	b. Create Superuser and test your model from admin interface
