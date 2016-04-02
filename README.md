@@ -12,6 +12,6 @@
 	b. Setup a database (Use default) then run `python manage.py migrate` to create database. Run server to verify `python manage.py runserver`
 
 ## Step 4
-	a.
+	a. Start app rests. Add rests in settings. 
 	b.
 	c.
