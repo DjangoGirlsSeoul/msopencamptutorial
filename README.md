@@ -22,3 +22,4 @@
 
 ## Step 6 (Deploy)
 	a. Create a free account on PythonAnywhere.com and pulling our code there
+	b. Create Virtualenvironment on PythonAnywhere `virtualenv --python=python3.4 myvenv` and install requirements using `pip install -r requirements.txt`
