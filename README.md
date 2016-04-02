@@ -13,5 +13,5 @@
 
 ## Step 4
 	a. Start app rests. Add rests in settings. 
-	b.
+	b. Create Restaurant Model 
 	c.
