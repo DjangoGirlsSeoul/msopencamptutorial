@@ -19,3 +19,6 @@
 ## Step 5
 	a. Django Admin - Add your model to admin.py
 	b. Create Superuser and test your model from admin interface
+
+## Step 6 (Deploy)
+	a. Create a free account on PythonAnywhere.com and pulling our code there
