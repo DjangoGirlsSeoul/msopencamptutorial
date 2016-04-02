@@ -14,4 +14,8 @@
 ## Step 4
 	a. Start app rests. Add rests in settings. 
 	b. Create Restaurant Model 
-	c.
+	c. Create tables for models in your database by running `python manage.py makemigrations rests` and then `python manage.py migrate`
+
+## Step 5
+	a.
+	b.
