@@ -36,3 +36,6 @@
  	a. Create Template for rest list with dummy data using bootstrap
 	b. Create Template for restaurant detail page
 	c. Create base template and extend list and detail template from it
+
+## Step 10 (Dynamic Data in Template with Django ORM)
+	a. Get Dynamic data (restaurants) from database using queryset
