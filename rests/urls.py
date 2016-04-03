@@ -3,5 +3,5 @@ from . import views
 
 urlpatterns = [
     url(r'^$',views.rest_list,name="rest_list"),
-    url(r'^rest/detail$',views.rest_detail,name="rest_detail")
+    url(r'^rest/(?P<pk>\d+)/$',views.rest_detail,name="rest_detail")
 ]

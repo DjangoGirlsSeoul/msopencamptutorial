@@ -6,27 +6,27 @@
       <div class="col-xs-12 col-sm-12 col-md-offset-2 col-lg-offset-2 col-md-8 col-lg-8">
         <div class="card">
         <div class="card-img-top">
-          <div class="image" style="background-image: url(https://irs3.4sqi.net/img/general/455x300/gaZ_0lBT64bsuWBAxNkIGjtn-ith4wKKo0liYG2TMgk.jpg);"></div>
+          <div class="image" style="background-image: url({{ rest.image }});"></div>
         </div>
         <div class="card-block">
-          <h4 class="card-title text-center">Mr. Pizza</h4>
+          <h4 class="card-title text-center">{{ rest.name }}</h4>
           <p class="card-text text-center">
             <ul class="list-group">
               <li class="list-group-item">
               <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"> </span>
-                +82 02 2194 5000
+                {{ rest.phone_number }}
               </li>
               <li class="list-group-item">
               <span class="glyphicon glyphicon-star" aria-hidden="true"> </span>
-                5
+                {{ rest.rating }}
               </li>
               <li class="list-group-item">
               <span class="glyphicon glyphicon-usd" aria-hidden="true"> </span>
-                20
+                {{ rest.price }}
               </li>
               <li class="list-group-item">
               <span class="glyphicon glyphicon-pushpin" aria-hidden="true"> </span>
-                Address
+                {{ rest.address }}
               </li>
             </ul>
           </p>
