@@ -31,3 +31,6 @@
 
 ## Step 8 (Django Views)
 	a. Create first view function in views.py
+
+## Step 9 (Django Template)
+ 	a. Create Template for rest list with dummy data using bootstrap
