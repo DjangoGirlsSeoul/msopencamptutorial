@@ -34,3 +34,4 @@
 
 ## Step 9 (Django Template)
  	a. Create Template for rest list with dummy data using bootstrap
+	b. Create Template for restaurant detail page

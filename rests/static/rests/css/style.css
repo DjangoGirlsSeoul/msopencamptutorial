@@ -1,9 +1,10 @@
+/* Ref : http://codepen.io/abdus/pen/NqZwWE */
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,800|Roboto+Slab:300);
 
 
 body {
   font-family: Roboto Slab;
-  min-height: 2000px;
+  min-height: 800px;
   padding-top: 70px;
 }
 
@@ -13,7 +14,7 @@ body {
 .image {
   width: 100%;
   height: 250px;
-  padding-bottom: 50%;
+  padding-bottom: 20%;
   transition: 0.1s linear;
   background-image: url(http://www.freeallimages.com/wp-content/uploads/2014/09/space-cat-wallpaper-5.jpg);
   background-size: cover;
