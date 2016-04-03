@@ -44,3 +44,6 @@
 ## Step 11 (Extend application)
 	a. Show Restaurant detail page with dynamic data
 	b. Deploy to PythonAnywhere with `python manage.py collectstatic`
+
+## Step 12 (Django forms)
+	a. Create Django form for adding restaurant
