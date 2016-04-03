@@ -39,3 +39,4 @@
 
 ## Step 10 (Dynamic Data in Template with Django ORM)
 	a. Get Dynamic data (restaurants) from database using queryset
+	b. Populate rest list template with dynamic data

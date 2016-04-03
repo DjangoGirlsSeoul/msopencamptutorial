@@ -16,49 +16,27 @@
   </div> <!-- /container -->
 
   <div class="container">
+    {% if rests %}
     <div class="row">
+      {% for rest in rests %}
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
         <div class="card">
         <div class="card-img-top">
-          <div class="image" style="background-image: url(https://irs3.4sqi.net/img/general/455x300/gaZ_0lBT64bsuWBAxNkIGjtn-ith4wKKo0liYG2TMgk.jpg);"></div>
+          <div class="image" style="background-image: url({{ rest.image }});"></div>
         </div>
         <div class="card-block">
-          <h4 class="card-title text-center">Mr. Pizza</h4>
+          <h4 class="card-title text-center">{{ rest.name }}</h4>
           <p class="card-text text-center"><button type="button" class="btn btn-info btn-lg">
-              <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 5
+              <span class="glyphicon glyphicon-star" aria-hidden="true"></span> {{ rest.rating }}
           </button></p>
           <a href="{% url 'rest_detail' %}" class="btn btn-default btn-lg btn-block">View</a>
         </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-        <div class="card">
-          <div class="card-img-top">
-          <div class="image" style="background-image: url(https://irs0.4sqi.net/img/general/455x300/3159655_4ZLHIG_t7guSX5XAlZgHSpyM449YCvFY5G_Rjd4nYto.jpg);"></div>
-          </div>
-        <div class="card-block">
-          <h4 class="card-title text-center">스시겐 (sushi Gen)</h4>
-          <p class="card-text text-center"><button type="button" class="btn btn-info btn-lg">
-              <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 5
-          </button></p>
-          <a href="{% url 'rest_detail' %}" class="btn btn-default btn-lg btn-block">View</a>
-        </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-        <div class="card">
-          <div class="card-img-top">
-          <div class="image" style="background-image: url(https://irs1.4sqi.net/img/general/455x300/TWS95DUWj75QdpOsT7k6riA4w7vAb0TRpde5dzUmKQ0.jpg);"></div>
-          </div>
-        <div class="card-block">
-          <h4 class="card-title text-center">BBQ Chicken Cafe</h4>
-          <p class="card-text text-center"><button type="button" class="btn btn-info btn-lg">
-              <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 5
-          </button></p>
-          <a href="{% url 'rest_detail' %}" class="btn btn-default btn-lg btn-block">View</a>
-        </div>
-        </div>
-      </div>
+      {% endfor %}
     </div>
+    {% else %}
+    <h2>No Restaurants added yet</h2>
+    {% endif %}
   </div>
   {% endblock %}
