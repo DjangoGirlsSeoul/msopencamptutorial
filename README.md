@@ -24,3 +24,4 @@
 	a. Create a free account on PythonAnywhere.com and pulling our code there
 	b. Create Virtualenvironment on PythonAnywhere `virtualenv --python=python3.4 myvenv` and install requirements using `pip install -r requirements.txt`
 	c. Creating the database on PythonAnywhere by running `python manage.py migrate`
+	d. Publishing our site as web app - set virtualenv and wsgi file
