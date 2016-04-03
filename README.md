@@ -25,3 +25,6 @@
 	b. Create Virtualenvironment on PythonAnywhere `virtualenv --python=python3.4 myvenv` and install requirements using `pip install -r requirements.txt`
 	c. Creating the database on PythonAnywhere by running `python manage.py migrate`
 	d. Publishing our site as web app - set virtualenv and wsgi file
+
+## Step 7 (Django Urls)
+	a. Add Django url to point home page to restaurant list
