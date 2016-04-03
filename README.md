@@ -28,3 +28,6 @@
 
 ## Step 7 (Django Urls)
 	a. Add Django url to point home page to restaurant list
+
+## Step 8 (Django Views)
+	a. Create first view function in views.py
