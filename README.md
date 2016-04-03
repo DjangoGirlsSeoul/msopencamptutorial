@@ -1,6 +1,6 @@
 # Dinewithcode
 
-## Step 1 
+## Step 1
 	a. Create gitignore
 	b. Install django and create requirements.txt file
 
@@ -12,8 +12,8 @@
 	b. Setup a database (Use default) then run `python manage.py migrate` to create database. Run server to verify `python manage.py runserver`
 
 ## Step 4
-	a. Start app rests. Add rests in settings. 
-	b. Create Restaurant Model 
+	a. Start app rests. Add rests in settings.
+	b. Create Restaurant Model
 	c. Create tables for models in your database by running `python manage.py makemigrations rests` and then `python manage.py migrate`
 
 ## Step 5
@@ -23,3 +23,4 @@
 ## Step 6 (Deploy)
 	a. Create a free account on PythonAnywhere.com and pulling our code there
 	b. Create Virtualenvironment on PythonAnywhere `virtualenv --python=python3.4 myvenv` and install requirements using `pip install -r requirements.txt`
+	c. Creating the database on PythonAnywhere by running `python manage.py migrate`
