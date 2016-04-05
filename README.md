@@ -1,38 +1,42 @@
 # Dinewithcode
----
+
 ## Getting Started
-Prerequisites : Python 3.5.x , Git (Windows,Mac), Atom
+	Prerequisites : Python 3.5.x , Git (Windows,Mac), Atom
 ---
-## Fork and Clone this Template
+## Fork and Clone this Repository
 	a. Click on Fork Button at the top right
-	<img src="images/fork.png" width="300">
+<img src="images/fork.png" width="700">
+
 	b. Clone using `git clone https://github.com/<user_name>/msopencamptutorial.git`
-	<img src="images/clone.png" width="300">
+
+<img src="images/clone.png" width="700">
+
 	c. Go inside the folder `cd msopencamptutorial`
 	d. Make virtualenv Windows : `C:\Python35\python -m venv myvenv` Mac : `python3 -m venv myvenv` Linux : `virtualenv --python=python3.4 myvenv`
 	e. Activate virtualenv Windows: `myvenv\Scripts\activate`  Mac and Linux : `source myvenv/bin.activate` and install requirements `pip install -r requirements`
 	f. Create database by running `python manage.py migrate`
 	e. Follow below demo from Step 4(b) onwards
 
+
 # Demo
----
-## Step 1
+
+## Step 1 (Instllation - Setup)
 	a. Create gitignore
 	b. Install django and create requirements.txt file
 
-## Step 2
+## Step 2 (Start Project)
 	a. Start Django project
 
-## Step 3
+## Step 3 (Basic configuration)
 	a. Change settings ( Add `Asia/Seoul` as timezone and set static root `STATIC_ROOT = os.path.join(BASE_DIR, 'static')` )
 	b. Setup a database (Use default) then run `python manage.py migrate` to create database. Run server to verify `python manage.py runserver`
 
-## Step 4
+## Step 4 (Start app)
 	a. Start app rests. Add rests in settings.
 	b. Create Restaurant Model
 	c. Create tables for models in your database by running `python manage.py makemigrations rests` and then `python manage.py migrate`
 
-## Step 5
+## Step 5 (Django Admin)
 	a. Django Admin - Add your model to admin.py
 	b. Create Superuser and test your model from admin interface
 
@@ -70,3 +74,5 @@ Prerequisites : Python 3.5.x , Git (Windows,Mac), Atom
 ## Step 13 (Homework)
 	a. Implement Sorting based on ratings
 	b. Implement Sorting based on restaurant price
+
+## Step 14 (Extended)
