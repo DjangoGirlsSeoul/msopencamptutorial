@@ -50,3 +50,7 @@
 	b. Link template with form and add method in views for saving form
 	c. Add Security for form
 	d. Add Edit restaurant feature
+
+## Step 13 (Homework)
+	a. Implement Sorting based on ratings
+	b. Implement Sorting based on restaurant price
