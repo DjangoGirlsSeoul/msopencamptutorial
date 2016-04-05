@@ -1,0 +1,89 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dinewithcode</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="{% static 'rests/css/style.css' %}">
+</head>
+<body>
+  <div class="content">
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">Dinewithcode</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sort by <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Rating > 4</a></li>
+              <li><a href="#">Rating > 3</a></li>
+              <li><a href="#">Rating > 2</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">Rating</li>
+              <li><a href="#">Highest</a></li>
+              <li><a href="#">Lowest</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-offset-2 col-lg-offset-2 col-md-8 col-lg-8">
+        <div class="thumbnail">
+          <img src="https://irs3.4sqi.net/img/general/455x300/gaZ_0lBT64bsuWBAxNkIGjtn-ith4wKKo0liYG2TMgk.jpg" alt="resturant" style="background-size:cover;">
+          <div class="caption">
+            <h3 class="text-center">Mr. Pizza</h3>
+            <p>
+              <ul class="list-group">
+                <li class="list-group-item">
+                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"> </span>
+                  02-2194-5999
+                </li>
+                <li class="list-group-item">
+                <span class="glyphicon glyphicon-star" aria-hidden="true"> </span>
+                  4
+                </li>
+                <li class="list-group-item">
+                <span class="glyphicon glyphicon-usd" aria-hidden="true"> </span>
+                  10
+                </li>
+                <li class="list-group-item">
+                <span class="glyphicon glyphicon-pushpin" aria-hidden="true"> </span>
+                  Seoul
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
+  <div class="container">
+ <footer>Build with Django</footer>
+ </div>
+ </div>
+</body>
+</html>
