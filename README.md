@@ -35,7 +35,7 @@
 
 ## Step 4 (Start app)
 	a. Start app rests. Add rests in settings.
-	b. Create Restaurant Model
+	b. Create Restaurant Model with name,address,phone_number,ratings,price,image, and createdAt fields
 	c. Create tables for models in your database by running `python manage.py makemigrations rests` and then `python manage.py migrate`
 
 ## Step 5 (Django Admin)
