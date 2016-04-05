@@ -47,3 +47,4 @@
 
 ## Step 12 (Django forms)
 	a. Create Django form for adding restaurant
+	b. Link template with form and add method in views for saving form
