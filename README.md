@@ -2,6 +2,8 @@
 
 ## Getting Started
 	Prerequisites : Python 3.5.x , Git (Windows,Mac), Atom
+
+###### [Installation Instructions](https://github.com/djangogirlscodecamp/msopencamptutorial/blob/master/INSTALL.md)
 ---
 ## Fork and Clone this Repository
 	a. Click on Fork Button at the top right
