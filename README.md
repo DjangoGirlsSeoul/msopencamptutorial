@@ -24,7 +24,7 @@
 
 ## Step 1 [설치하기](http://tutorial.djangogirls.org/ko/deploy/#git-저장소-만들기)
 	a. .gitignore 파일을 만들기
-	b. 가상환경 사용하고 장고 살치하기 `pip install django` 그리고 requirements.txt 이렇게 만들기 `pip freeze > requirements.txt`
+	b. 가상환경 사용하고 장고 설치하기 `pip install django` 그리고 requirements.txt 이렇게 만들기 `pip freeze > requirements.txt`
 
 ## Step 2 (프로젝트 시작하기)
 	a. Django 프로젝트 시작하기 `django-admin startproject dinewithcode`
