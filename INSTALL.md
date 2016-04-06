@@ -4,13 +4,18 @@
   Python 3.5.x , Git (Windows,Mac), Atom
 
 ## Python
-  get from http://www.python.org
+a. get from http://www.python.org
+
 <img src="images/python_download.png" width="500">
 
-  a. Check `add to path`
+
+b. Check `add to path`
+
 <img src="images/python_install.png" width="500">
 
-  b. Start command prompt and confirm python installation
+
+c. Start command prompt and confirm python installation
+
 <img src="images/python_check.png" width="500">
 
 
@@ -18,15 +23,19 @@
   get from http://git-scm.com
 
   a. Check settings
+  
 <img src="images/git_install_1.png" width="500">
+
 
   b. Select second option
 
 <img src="images/git_install_2.png" width="500">
 
+
   c. Select window style
 
 <img src="images/git_install_3.png" width="500">
+
 
 //TODO: Add git global config (name and email)
 
