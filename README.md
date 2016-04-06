@@ -22,8 +22,8 @@
 
 # Demo
 
-## Step 1 (설치하기)
-	a. .gitignore 파일을 만들기 [link](http://tutorial.djangogirls.org/ko/deploy/#git-저장소-만들기)
+## Step 1 [설치하기](http://tutorial.djangogirls.org/ko/deploy/#git-저장소-만들기)
+	a. .gitignore 파일을 만들기
 	b. 가상환경 사용하고 장고 살치하기 `pip install django` 그리고 requirements.txt 이렇게 만들기 `pip freeze > requirements.txt`
 
 ## Step 2 (프로젝트 시작하기)
@@ -38,12 +38,12 @@
 	b. rests 글 모델 만들기 속성: name,address,phone_number,ratings,price,image, and createdAt fields
 	c. 데이터베이스에 모델을 위한 테이블 만들기 `python manage.py makemigrations rests` 그리고 `python manage.py migrate` 실행하세요
 
-## Step 5 (Django 관리자)
-	a. 관리자 페이지에서 만든 모델을 보려면 admin.site.register(Restaurant)로 모델을 등록해야해요. [link](http://tutorial.djangogirls.org/en/django_admin/#django-admin)
+## Step 5 [Django 관리자](http://tutorial.djangogirls.org/en/django_admin/#django-admin)
+	a. 관리자 페이지에서 만든 모델을 보려면 admin.site.register(Restaurant)로 모델을 등록해야해요.
 	b. 로그인을 하기 위해서는, 모든 권한을 가지는 슈퍼유저(superuser)를 생성해야해요. 커맨드라인으로 돌아가서 `python manage.py createsuperuser`을 입력하고 엔터를 누르세요. 브라우저로 돌아와서 장고 관리자 페이지에서 슈퍼유저로 로그인한 후 대시보드를 확인하세요
 
-## Step 6 (배포하기)
-	a. PythonAnywhere에서 무료 계정인 "초보자(Beginner)"로 회원가입 하세요. GitHub에서 PythonAnywhere로 코드 가져오기 [link](http://tutorial.djangogirls.org/ko/deploy/#github에서-pythonanywhere로-코드-가져오기)
+## Step 6 [배포하기](http://tutorial.djangogirls.org/ko/deploy/#github에서-pythonanywhere로-코드-가져오기)
+	a. PythonAnywhere에서 무료 계정인 "초보자(Beginner)"로 회원가입 하세요. GitHub에서 PythonAnywhere로 코드 가져오기
 	b. PythonAnywhere에서 가상환경(virtualenv) 생성하기. 콘솔창에서 `virtualenv --python=python3.4 myvenv` 그리고 `pip install -r requirements.txt` 실행하세요.정적 파일 모으기 `python manage.py collectstatic`
 	c. PythonAnywhere에서 데이터베이스 생성하기 `python manage.py migrate`
 	d. web app으로 Dinewithcode 배포하기 - 가상환경(virtualenv) 설정하기 그리고 WSGI 파일 설정하기
@@ -54,13 +54,13 @@
 ## Step 8 (Django 뷰)
 	a. Django 뷰 만들기. 뷰는 views.py 파일 안에 있습니다. 우리는 views 를 rests/views.py 파일 안에 추가할 거에요.
 
-## Step 9 (Django 템플릿)
+## Step 9 [Django 템플릿](http://tutorial.djangogirls.org/ko/template_extending/#템플릿-확장하기)
  	a. Bootstrap 사용하고 rest list 템플릿 만들기
 	b. Bootstrap 사용하고 rest retail 템플릿 만들기
-	c. 템플릿 확장하기 [link](http://tutorial.djangogirls.org/ko/template_extending/#템플릿-확장하기)
+	c. 템플릿 확장하기
 
-## Step 10 (템플릿의 동적 데이터)
-	a. 쿼리셋 [link](http://tutorial.djangogirls.org/en/dynamic_data_in_templates/#dynamic-data-in-templates)
+## Step 10 [템플릿의 동적 데이](http://tutorial.djangogirls.org/en/dynamic_data_in_templates/#dynamic-data-in-templates)
+	a. 쿼리셋
 	b. rest 목록 템플릿 보여주기
 
 ## Step 11 (프로그램 어플리케이션 확장하기)
@@ -70,7 +70,7 @@
 ## Step 12 (Django 폼)
 	a. 이제 한 가지만 더 하면 웹사이트가 완성되어요. 바로 식당을 추가하거나 수정하는 멋진 기능을 추가하는 것이죠. 폼과 페이지 링크 만들기
 	b. Link template with form and add method in views for saving form
-	c. 폼 보안 
+	c. 폼 보안
 	d. 폼 수정하기- 한 가지만 더: 배포하세요
 
 ## Step 13 (Homework)
