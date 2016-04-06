@@ -5,19 +5,19 @@
 
 ###### [Installation Instructions](https://github.com/djangogirlscodecamp/msopencamptutorial/blob/master/INSTALL.md)
 ---
-## Fork and Clone this Repository
-	a. Click on Fork Button at the top right
+## Fork and clone this repository for Tutorial
+	a. 오른쪽 위에 있는 Fork 버튼을 누른다
 <img src="images/fork.png" width="700">
 
-	b. Clone using `git clone https://github.com/<user_name>/msopencamptutorial.git`
+	b. git clone 사용하여 `git clone https://github.com/<user_name>/msopencamptutorial.git`
 
 <img src="images/clone.png" width="700">
 
-	c. Go inside the folder `cd msopencamptutorial`
-	d. Make virtualenv Windows : `C:\Python35\python -m venv myvenv` Mac : `python3 -m venv myvenv` Linux : `virtualenv --python=python3.4 myvenv`
-	e. Activate virtualenv Windows: `myvenv\Scripts\activate`  Mac and Linux : `source myvenv/bin.activate` and install requirements `pip install -r requirements`
-	f. Create database by running `python manage.py migrate`
-	e. Follow below demo from Step 4(b) onwards
+	c. `cd msopencamptutorial`  치고 msopencamptutorial 폴더 안으로 이동
+	d. 가상환경을 만든다. 윈도우의 경우 : `C:\Python35\python -m venv myvenv` 맥의 경우 : `python3 -m venv myvenv` 리눅스의 경우 : `virtualenv --python=python3.4 myvenv`를 콘솔에 치면 된다.
+	e. 가상환경을 활성화 시킨다. 윈도우의 경우: `myvenv\Scripts\activate`  맥이나 리눅스의 경우  : `source myvenv/bin.activate` 를 치고, 요구되는 사항들을 옆의 명령어를 통해 설치한다. `pip install -r requirements`
+	f. `python manage.py migrate` 통해 데이터 베이스를 만든다.
+	g. 아래 데모를 4(b) 단계 부터 따라한다.
 
 
 # Demo
