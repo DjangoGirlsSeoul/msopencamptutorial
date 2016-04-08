@@ -1,11 +1,11 @@
 # Dinewithcode
 
-## Getting Started
-	Prerequisites : Python 3.5.x , Git (Windows,Mac), Atom
+## 시작하기
+	준비사항 : Python 3.5.x , Git (Windows,Mac), Atom (미리 설치해두세요)
 
-###### [Installation Instructions](https://github.com/djangogirlscodecamp/msopencamptutorial/blob/master/INSTALL.md)
+###### [설치 방법](https://github.com/djangogirlscodecamp/msopencamptutorial/blob/master/INSTALL.md)
 ---
-## Fork and clone this repository for Tutorial
+## 이 튜토리얼을 찍고 내 리퍼지토리로 복사하세요. (Fork and clone this repository for Tutorial)
 	a. 오른쪽 위에 있는 Fork 버튼을 누른다
 <img src="images/fork.png" width="700">
 
@@ -20,7 +20,7 @@
 	g. 아래 데모를 4(b) 단계 부터 따라한다.
 
 
-# Demo
+# 데모
 
 ## Step 1 [설치하기](http://tutorial.djangogirls.org/ko/deploy/#git-저장소-만들기)
 	a. .gitignore 파일을 만들기
@@ -73,8 +73,8 @@
 	c. 폼 보안
 	d. 폼 수정하기- 한 가지만 더: 배포하세요
 
-## Step 13 (Homework)
-	a. Implement Sorting based on ratings
-	b. Implement Sorting based on restaurant price
+## Step 13 (숙제)
+	a. '점수' 목록 배열하기
+	b. '가격' 목록 배열하기
 
 ## Step 14 (Extended)
