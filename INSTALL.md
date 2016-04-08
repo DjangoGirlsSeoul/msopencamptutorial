@@ -23,7 +23,7 @@ c. Start command prompt and confirm python installation
   get from http://git-scm.com
 
   a. Check settings
-  
+
 <img src="images/git_install_1.png" width="500">
 
 
@@ -38,6 +38,8 @@ c. Start command prompt and confirm python installation
 
 
 //TODO: Add git global config (name and email)
+  d. From command prompt `git config --global user.name "Your Name"`
+  e. From command prompt `git config --global user.email "johndoe@example.com"`
 
 ## Atom
   get atom from https://atom.io
