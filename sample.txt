@@ -1,0 +1,27 @@
+Rest 1
+name = Brick Oven New York Pizzeria
+address = 강남구 강남대로102길 31 역삼1동 서울특별시 서울특별시 135-907 대한민국
+phone_number =  02-508-1325
+rating = 5
+price = 30
+image = https://irs1.4sqi.net/img/general/455x300/8319188_8M3jj_eP1YbK-mz1P0OyMT2nmhJLZdK3tEz4gSEMxz8.jpg
+
+
+Rest 2
+name = think coffee
+address = 종로구 율곡로 6 (광화문점) 종로1.2.3.4가동 서울특별시 서울특별시 110-150 대한민국
+phone_number =  02-6016-6860
+rating = 4
+price = 10
+image = https://irs1.4sqi.net/img/general/455x300/PSclIOyiaY9YYWvyDgFVDfv7S5xQIoA9CHdLEoFr9cs.jpg
+
+Rest 3
+name = 매드후라이치킨 (MADFRY CHICKEN)
+address = 종로구 관철동 18-4 (관철점) 종로1.2.3.4가동 서울특별시 서울특별시 110-111 대한민국
+phone_number = 02-735-9982
+rating = 3
+price = 20
+image = https://irs2.4sqi.net/img/general/455x300/7894782_gXJmm6tLnbFj-Ahmjr3v2FyoV3HTDjPilPbAUSMx3Jw.jpg
+
+
+more from https://searchrestraurant.PythonAnywhere.common
