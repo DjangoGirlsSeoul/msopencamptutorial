@@ -69,7 +69,7 @@
 
 ## Step 12 (Django 폼)
 	a. 이제 한 가지만 더 하면 웹사이트가 완성되어요. 바로 식당을 추가하거나 수정하는 멋진 기능을 추가하는 것이죠. 폼과 페이지 링크 만들기
-	b. Link template with form and add method in views for saving form
+	b. 폼과 링크를 연결하고 저장된 폼에 View 메소드를 추가하기
 	c. 폼 보안
 	d. 폼 수정하기- 한 가지만 더: 배포하세요
 
