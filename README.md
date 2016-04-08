@@ -59,7 +59,7 @@
 	b. Bootstrap 사용하고 rest retail 템플릿 만들기
 	c. 템플릿 확장하기
 
-## Step 10 [템플릿의 동적 데이](http://tutorial.djangogirls.org/en/dynamic_data_in_templates/#dynamic-data-in-templates)
+## Step 10 [템플릿의 동적 데이터](http://tutorial.djangogirls.org/en/dynamic_data_in_templates/#dynamic-data-in-templates)
 	a. 쿼리셋
 	b. rest 목록 템플릿 보여주기
 
