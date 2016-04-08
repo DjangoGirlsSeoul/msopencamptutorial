@@ -37,8 +37,10 @@ c. Start command prompt and confirm python installation
 <img src="images/git_install_3.png" width="500">
 
 
-//TODO: Add git global config (name and email)
+  //TODO: Add git global config (name and email)
+
   d. From command prompt `git config --global user.name "Your Name"`
+
   e. From command prompt `git config --global user.email "johndoe@example.com"`
 
 ## Atom
